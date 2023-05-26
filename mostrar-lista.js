@@ -2,7 +2,7 @@ const readline = require("readline-sync");
 const modulo = require("./lista-tareas");
 
 function main() {
-  console.log(exit);
+  let exit = false;
   while (!exit) {
     console.log("--- Gestor de Tareas ---");
     console.log("1. Agregar Tarea");
