@@ -14,16 +14,28 @@ function main() {
 
     switch (option) {
       case "1":
-        modulo.addTask();
+        modulo
+          .addTask()
+          .then((message) => console.log(message))
+          .catch((error) => console.log(error));
         break;
       case "2":
-        modulo.deleteTask();
+        modulo
+          .deleteTask()
+          .then((message) => console.log(message))
+          .catch((error) => console.log(error));
         break;
       case "3":
-        modulo.completeTask();
+        modulo
+          .completeTask()
+          .then((message) => console.log(message))
+          .catch((error) => console.log(error));
         break;
       case "4":
-        modulo.showTasks();
+        modulo
+          .showTasks()
+          .then((message) => console.log(message))
+          .catch((error) => console.log(error));
         break;
       case "5":
         exit = true;
