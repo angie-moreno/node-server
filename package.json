@@ -1,5 +1,17 @@
 {
   "dependencies": {
+    "nodemon": "^2.0.22",
     "readline-sync": "^1.4.10"
-  }
+  },
+  "name": "lista-tareas-node",
+  "version": "1.0.0",
+  "main": "lista-tareas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon lista-tareas.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
