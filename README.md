@@ -1,3 +1,9 @@
+# Lista de tareas asíncrona en Node
+
+¡Bienvenido/a al proyecto de lista de tareas asíncrona en Node! En este proyecto, aprenderemos a utilizar promesas en Node.js para manejar tareas de manera asíncrona.
+
+## Preguntas
+
 ¿Qué sucedio al usar async y await?
 
 El uso de async/await puede hacer que el código sea más legible,conciso y se asemeje a una programación síncrona.Permite una programación más lineal y estructurada.
